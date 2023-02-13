@@ -1,0 +1,133 @@
+Project:
+ Name: BoilerSG_Design
+ ProjectNamespaceIndex: 40
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.0
+ CoreVersion: 1.0
+ Dependencies:
+  2:
+   Uri: BoilerSG
+   RelativePath: BoilerSG.optix
+  3:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.Boiler.Online.Tank2'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  4:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLA_ANE_Area'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  5:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC553.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  6:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://opcfoundation.org/UA/DI/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  7:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  8:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  9:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC508.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  10:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:bm100:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  11:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:DESKTOP-NGN08CH:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  12:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:DESKTOP-VUVES76:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  13:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:pangmys-pass:FactoryTalkLinxGatewayOPCUAServer'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  14:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://www.rockwellautomation.com/OpcUa'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  15:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://www.softing.com/OPCUA_Toolkit'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  16:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLS_HMI_Server'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  17:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLS_Data_Area'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  18:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLS_Data_Area.BMS1'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  19:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLS_Data_Area.PAX'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  20:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLS_Data_Area.Production'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  21:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLS_Data_Area.QBMS1'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  22:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLS_Data_Area.Production.Diagnostic Items'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  23:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLS_Data_Area.Production.Online'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  24:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLS_Data_Area.QBMS1.Diagnostic Items'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  25:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.PlantPAxLS_Data_Area.QBMS1.Online'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  26:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.Boiler'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  27:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.Boiler.Diagnostic Items'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  28:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.Boiler.Online'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  29:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.Boiler.Online.Motors'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  30:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.Boiler.Online.MyTag1'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  31:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.Boiler.Online.Program:MainProgram'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  32:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.Boiler.Online.SpindleArray'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  33:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#App.Boiler.Online.Tank1'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  34:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 1.0
+  35:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.0
+  36:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  37:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 1.0
+  38:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
+  39:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 1.0
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml
+ - File: 'DesignTimeNodes/OPC-UA/OPCUAClient/OPCUATagImporter.yaml'

@@ -1,0 +1,20 @@
+Name: 'ns=30;Program:MainProgram'
+Id: 'ns=30;s=Program:MainProgram'
+Type: FolderType
+DisplayName: {"LocaleId":"en","Text":"Program:MainProgram"}
+ReferenceType: Organizes
+Children:
+- Name: ns=13;Temperature1
+  Id: 'ns=13;s=::[Boiler]Program:MainProgram.Temperature1'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Temperature1"}
+  ReferenceType: Organizes
+  Value: 75
+- Name: ns=13;Temperature2
+  Id: 'ns=13;s=::[Boiler]Program:MainProgram.Temperature2'
+  Type: BaseDataVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Temperature2"}
+  ReferenceType: Organizes
+  Value: 80

@@ -1,0 +1,7 @@
+Name: ns=25;Boiler
+Id: ns=25;s=Boiler
+Type: FolderType
+DisplayName: {"LocaleId":"en","Text":"Boiler"}
+ReferenceType: Organizes
+Children:
+- File: Online/Online.yaml

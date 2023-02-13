@@ -1,0 +1,167 @@
+Name: RAEtherNet_IPStation1
+Id: g=d5e7a7a144fd91a1dcee5a8ea02958d4
+Type: RAEtherNetIPStation
+Children:
+- Name: Route
+  Id: g=e83c00e11eedbbd39e4c39329b0331e6
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "192.168.1.123"
+- Name: OperationCode
+  Id: g=1475a527518432074da699e10608060f
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=60;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=60;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=60;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=60;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=60;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=60;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: g=16dbc7a023165eb09e2bdb9fd09d3e4a
+  Type: BaseObjectType
+  Children:
+  - Name: TankUDT
+    Id: g=6d7fe9a286202b098f9e0b44b5085f03
+    Supertype: TagStructure
+    Children:
+    - Name: Level
+      Id: g=de068782449e44b2a31e0e2062bad62f
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=36a3e2dd8b3d23ac5cef55c2cf5b3ba3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Level"
+    - Name: SetPoint
+      Id: g=38b6b7c28390755a0e519c430f307e75
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=c24df523ff9610026bf741ba2ac48821
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SetPoint"
+    - Name: ValveInCmd
+      Id: g=2c5437eda755332390a59eb7b9a78b90
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=780799ff56c2f040684172e562af1d01
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveInCmd"
+    - Name: ValveInStatus
+      Id: g=61a44cc0081390520a633fe078f898c8
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=ff6cd7832769bfa6599d4e06c806cf87
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveInStatus"
+    - Name: ValveOutCmd
+      Id: g=3b71cbac9b75cf43cf21db1116430d57
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=84619c9a00d56b400b632d87d270cedd
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveOutCmd"
+    - Name: ValveOutStatus
+      Id: g=3c18865d1a93bd1aa3ff1d311e058c27
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=c44ea388f1abd022c331b32e6b1e205f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveOutStatus"
+  - Name: Motor
+    Id: g=5e4024c251a66301624f9ede6b583cfc
+    Supertype: TagStructure
+    Children:
+    - Name: CmdOffOn
+      Id: g=26d3bc01b451b8da13b44b776bac0682
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=e9c7436231d2545bac447f1ad74ef396
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CmdOffOn"
+    - Name: Power
+      Id: g=c75d7311be2d6a59d33af4115a7b07f4
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=d0c9c23b17fa167e5cf52624ef9f9633
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Power"
+    - Name: SetSpeed
+      Id: g=4cecb4799942ae9546aee3d35293edd5
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=56754e280d967276bab08dd231e886d5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SetSpeed"
+    - Name: Speed
+      Id: g=f2844d50a976f081a5e8ecaad0382012
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=610eb475d4e9bf9d975bd62c4f021710
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Speed"
+    - Name: Status
+      Id: g=e16fff404c205c5bddeec071853f6e19
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=fb7d86d21893dce0a61326bf87967da6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Status"

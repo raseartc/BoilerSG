@@ -1,0 +1,6 @@
+Name: ns=13;FactoryTalkLinxGateway1
+Id: ns=13;s=FactoryTalkLinxGateway1
+Type: FolderType
+DisplayName: {"LocaleId":"en","Text":"FactoryTalkLinxGateway1"}
+Children:
+- File: Boiler/Boiler.yaml
